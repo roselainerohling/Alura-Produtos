@@ -1,4 +1,5 @@
-header {background: LimeGreen;padding:20px 0;}
+header {background: LimeGreen;
+    padding:20px 0;}
 
 nav li {display: inline; 
     margin: 0 0 0 15px;}
@@ -8,11 +9,11 @@ nav a {text-transform: uppercase;
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;}
+
 .produtos {
     width: 940px;
     margin: 0 auto;
-    padding: 50px 0;
-}
+    padding: 50px 0;}
 
 .produtos li {
     display: inline-block;
@@ -21,20 +22,16 @@ nav a {text-transform: uppercase;
     vertical-align: top;
     margin: 0 1.5%;
     padding: 30px 20px;
-    box-sizing: border-box;
-}
+    box-sizing: border-box;}
 
 .produtos h2 {
     font-size: 30px;
-    font-weight: bold;
-}
+    font-weight: bold;}
 
 .produto-descricao {
-    font-size: 18px;
-}
+    font-size: 18px;}
 
 .produto-preco {
     font-size: 22px;
     font-weight: bold;
-    margin-top: 10px;
-}
+    margin-top: 10px;}
