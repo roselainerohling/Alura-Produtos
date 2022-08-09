@@ -32,7 +32,9 @@ nav {
     vertical-align: top;
     margin: 0 1.5%;
     padding: 30px 20px;
-    box-sizing: border-box;}
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;}
 
 .produtos h2 {
     font-size: 30px;
@@ -45,3 +47,27 @@ nav {
     font-size: 22px;
     font-weight: bold;
     margin-top: 10px;}
+
+footer {
+    text-align: center;
+    background: url("https://cdn1.gnarususercontent.com.br/1/1186227/c85d9bd6-2f74-4a3b-b042-42f3aff33b83.png");
+    padding: 40px 0;}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;}
+
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;}
+
+.produtos li:hover {
+    border-color: #C78C19;}
+
+.produtos li:active {
+    border-color: #088C19;}
+
+.produtos li:hover h2 {
+    font-size: 34px;}
+
